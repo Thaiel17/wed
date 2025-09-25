@@ -1,0 +1,323 @@
+.container {
+  width: 100%;
+ 
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ff4d00;
+  margin: 0px;
+ 
+}
+
+.cabecera nav {
+  width: 100%;
+  background-color: #ab5631;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  top: 0;
+  position: fixed;
+
+}
+
+.cabecera nav ul li {
+  display: inline;
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+  margin: auto 10px;
+}
+
+.cabecera nav ul li a {
+  text-decoration: none;
+  display: inline;
+  padding: auto;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.cabecera nav ul li a:hover {
+  text-decoration: none;
+  padding: auto;
+  color: #02015f;
+}
+
+/* ACA EPIEZA EL MENU*/
+
+.menu {
+  background-color: #02015f;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 200px 10px 100px rgba(0, 0, 0, 0.5) inset;
+
+  object-fit: contain;
+  margin-top: 50px;
+}
+
+.menu h1 {
+  color: #ff4d00;
+  font-size: 50px;
+}
+.menu h3 {
+  color: #ff4d00;
+  font-size: 30px;
+}
+.menu img {
+  width: 50%;
+}
+.menu div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.menu div img {
+  width: 200px;
+  height: 200px;
+}
+
+/*aca el quienes somos*/
+
+.bienvenida {
+  position: relative;
+  text-decoration: white ;
+  height: 400px;
+  padding: 0px;
+  font-size: 25px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 20px 0px 100px rgba(0, 0, 0, 0.5) inset;
+
+
+}
+
+.bienvenida::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/confianza.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.3;
+  z-index: -1;
+ 
+}
+
+.bienvenida h3, p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: 50px;
+  padding: 10px;
+  color: #ffffff;
+  z-index: 10;
+}
+
+.bienvenida h3 {
+  margin-top: 20px;
+}
+
+/*aca esta la foto FRENTE DE NEGOCIO*/
+.frentenegocio img {
+  height: auto;
+  width: 100%;
+  
+}
+
+/*ACA EMPIEZAN LOS ICONOS*/
+.syp {
+  background-color: #ff4d00;
+  
+}
+.syp h3 {
+  background-color: #02015f;
+  text-align: center;
+  width: 100%;
+  color: #f9f9f9;
+  margin: 0;
+  padding: 10px;
+
+}
+
+.iconos {
+  background-color: #ff4d00;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.iconos div {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) inset;
+  transition: 0.5s;
+}
+
+.iconos div img {
+  width: 80px;
+  height: auto;
+  margin: 20%;
+  display: block;
+}
+
+.aceite:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/servicebora.jpg), url(images/servicekuid.jpg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50%, 50%;
+  background-position: left, right;
+}
+
+
+.bateria:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/bateriagiagnoni.jpg), url(images/benaut.jpg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50%, 50%;
+  background-position: left, right;
+}
+
+.frenos:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/campana.jpg), url(images/campanavieja.jpg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+}
+
+.motor:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/motor.jpg), url(images/ledh7.jpg);
+  background-position: left, right;
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.casco:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/cilindrohaffen.jpg), url(images/motul7100.jpg);
+  background-position: left, right;
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+/*whatsapp flotante*/
+.wpp {
+  overflow: hidden;
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+}
+
+.wpp img {
+  width: 70px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.wpp img:hover {
+  width: 90px;
+  height: auto;
+  transition: 0.5s;
+}
+
+/*formulario y atención*/
+
+
+.atención div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+ position: relative;
+}
+
+
+.atención h1 {
+    color: #f9f9f9;
+    background-color: #02015f;
+   
+}
+ .atención div img{
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+  z-index: -1;
+ }
+
+form {
+    display: inline-block;
+    background: #ffffffc2;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border: solid 2px black;
+    margin-bottom: 10%;
+
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+form textarea, input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    position: center;
+    border: solid 2px black;
+
+}
+
+form button {
+    margin-top: 15px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #e68900;
+}

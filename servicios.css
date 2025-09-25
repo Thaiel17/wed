@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ff4d00;
+  margin: 0;
+}
+
+.cabecera nav {
+  width: 100%;
+  background-color: #ab5631;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  top: 0;
+  position: fixed;
+}
+
+.cabecera nav ul li {
+  display: inline;
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+  margin: auto 10px;
+}
+
+.cabecera nav ul li a {
+  text-decoration: none;
+  display: inline;
+  padding: auto;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.cabecera nav ul li a:hover {
+  text-decoration: none;
+  padding: auto;
+  color: #02015f;
+}
+
+/* ACA EPIEZA EL MENU*/
+
+.menu {
+  background-color: #02015f;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 200px 10px 100px rgba(0, 0, 0, 0.5) inset;
+
+  object-fit: contain;
+  margin-top: 60px;
+}
+
+.menu h1 {
+  color: #ff4d00;
+  font-size: 50px;
+}
+.menu h3 {
+  color: #ff4d00;
+  font-size: 30px;
+}
+.menu img {
+  width: 50%;
+}
+.menu div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.menu div img {
+  width: 200px;
+  height: 200px;
+
+} 
+
+.syp {
+  background-color: #ff4d00;
+  
+}
+.syp h3 {
+  background-color: #02015f;
+  text-align: center;
+  width: 100%;
+  color: #f9f9f9;
+  margin: 0;
+  padding: 10px;
+
+}
+
+.iconos {
+  background-color: #ff4d00;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 400px;
+}
+
+.iconos div {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) inset;
+  transition: 0.5s;
+}
+
+.iconos div img {
+  width: 80px;
+  height: auto;
+  margin: 20%;
+  display: block;
+}
+
+.aceite:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/servicebora.jpg), url(images/servicekuid.jpg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50%, 50%;
+  background-position: left, right;
+}
+
+
+.bateria:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/bateriagiagnoni.jpg), url(images/benaut.jpg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50%, 50%;
+  background-position: left, right;
+}
+
+.frenos:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/campana.jpg), url(images/campanavieja.jpg);
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+}
+
+.motor:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/motor.jpg), url(images/ledh7.jpg);
+  background-position: left, right;
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.casco:hover {
+  width: 300px;
+  opacity: 1;
+  z-index: 1;
+  overflow: auto;
+  background-image: url(images/cilindrohaffen.jpg), url(images/motul7100.jpg);
+  background-position: left, right;
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+}
